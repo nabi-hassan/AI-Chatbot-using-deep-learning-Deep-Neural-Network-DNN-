@@ -1,0 +1,160 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Whats up"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there, how can I help?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Have a Good day"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later",
+                "Goodbye!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old",
+                "how old is Chatter",
+                "what is your age",
+                "how old are you",
+                "age?"
+            ],
+            "responses": [
+                "I am 18 years old!",
+                "18 years young!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?"
+            ],
+            "responses": [
+                "You can call me Chatter.",
+                "I'm Chatter!",
+                "I'm Chatter aka Bamk's Chatbot."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "shop",
+            "patterns": [
+                "Id like to buy something",
+                "whats on the menu",
+                "what do you reccommend?",
+                "could i get something to eat"
+            ],
+            "responses": [
+                "We sell chocolate chip cookies for $2!",
+                "Cookies are on the menu!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "when are you guys open",
+                "what are your hours",
+                "hours of operation"
+            ],
+            "responses": [
+                "We are open 7am-4pm Monday-Friday!"
+            ],
+            "context_set": ""
+        },
+    {
+            "tag": "accountbalance",
+            "patterns": [
+                "show all the accounts",
+                "want to check my acct bal",
+                "what is my account balance",
+                "whats the balance on my account",
+                "account bal",
+                "account balance",
+                "balance in my account",
+                "credit card balance",
+                "list down my accounts"
+            ],
+            "responses": [
+                "You have to sign and click on balance tab"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "representative",
+            "patterns": [
+                "representative",
+                "i need help",
+                "can i speak to someone",
+                "speak to someone",
+                "speak to a representative"
+            ],
+            "responses": [
+                "You can call the our helpline 0800-0000-000 .",
+                "You can visit our nearest branch ."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Viewtransactions",
+            "patterns": [
+                "what were my expenses",
+                "what were my dining expenses",
+                "what are the activities on my account",
+                "show my transactions",
+                "provide me an account statement",
+                "list down by recent transactions",
+                "view my transactions",
+                "can i have a look at my transactions",
+                "what were my transactions"
+            ],
+            "responses": [
+                "You have to sign and click on transactions tab"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "MoreInfo",
+            "patterns": [
+                "could you give more details",
+                "more info",
+                "tell me about it",
+                "Could you tell me more about it",
+                "could you tell me more",
+                "more information",
+                "more details"
+            ],
+            "responses": [
+                "You can visit our bank's website for more info",
+                "You can call the our helpline (0800-0000-000) for more info."
+            ],
+            "context_set": ""
+        }
+    ]
+}
