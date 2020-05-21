@@ -58,7 +58,7 @@
             "responses": [
                 "You can call me Chatter.",
                 "I'm Chatter!",
-                "I'm Chatter aka Bamk's Chatbot."
+                "I'm Chatter aka Bank's Chatbot."
             ],
             "context_set": ""
         },
@@ -111,9 +111,14 @@
             "patterns": [
                 "representative",
                 "i need help",
+                "how to open a bank account",
+                "pleast guide me to open an account",
                 "can i speak to someone",
                 "speak to someone",
-                "speak to a representative"
+                "speak to a representative",
+                "can i talk to manager",
+                "what if i forgot my username and/or password",
+                "How do I update my email address/mobile number?"
             ],
             "responses": [
                 "You can call the our helpline 0800-0000-000 .",
@@ -155,6 +160,103 @@
                 "You can call the our helpline (0800-0000-000) for more info."
             ],
             "context_set": ""
+        },
+        {
+            "tag":"humor",
+            "patterns":[
+                "Tell me a joke",
+                "please tell me a joke",
+                "can you joke",
+                "can you tell me a joke"
+            ],
+            "responses": [
+                "Did you hear about the buddhist who went to the dentist, and refused to take novocain? he wanted to transcend dental medication.",
+                "nasa recently sent a number of holsteins into orbit for experimental purposes. They called it the herd shot round the world.",
+                "I never forget a face, but in your case I'll make an exception.",
+                "A 3-legged dog walks into an old west saloon, slides up to the bar and announces(I'm looking for the man who shot my paw.)"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"AI",
+            "patterns":[
+                "What is AI?",
+                "What do you know about AI",
+                "What is artificial intelligence",
+                "What can you tell me about AI",
+                "What can you tell me about artificial intelligence"
+            ],
+            "responses":[
+                "Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.",
+                "AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"ID/Password",
+            "patterns":[
+                "which username and password do I use?",
+                "which username should i use",
+                "which password should i use"
+            ],
+            "responses":[
+                "You can use your existing username and password to login. If you do not have an internet banking account you can register, By creating an account."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"InternetBanking",
+            "patterns":[
+                "What is Internet Banking?",
+                "what do you know about internet banking?"
+            ],
+            "responses":[
+                "Internet Banking is a simple, hassle-free and secure internet banking service available to all Visa Debit Card holder customers and Corporate Clients*. Customer can access the service through Internet and Mobile browser"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"overseasbanking",
+            "patterns":[
+                "Can I access this service overseas?",
+                "How can i use this service overseas?",
+                "overseas access",
+                "is this service international",
+                "how can i access my account overseas",
+                "can i access my account internationally",
+                "how will international users access their account",
+                "international access"
+            ],
+            "responses":[
+                "Internet Banking is a simple, hassle-free and secure internet banking service available to all Visa Debit Card holder customers and Corporate Clients* across the globe. Customer can access the service through Internet and Mobile browser",
+                "Yes. As long as you are able to access the Internet with the recommended internet browser, you will be able to access the service."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"apply",
+            "patterns":[
+                "Who can apply for this service?",
+                "Who can apply for internet banking",
+                "What are the requirements for internet banking?"
+            ],
+            "responses":[
+                "Any MCB Bank account holder with an active Visa Debit Card at any MCB online branch in Pakistan can apply for this service through “Self Registration”. Further Abroad customer can choose “Abroad” from drop down menu. A *corporate customer needs to contact parent branch to accord this service."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"fundstransfer",
+            "patterns":[
+                "Can I transfer funds to my other accounts and any MCB Bank account?",
+                "can I transfer funds",
+                "how can i transfer funds to other accounts",
+                "funds transfer"
+            ],
+            "responses":[
+                "Yes. You can transfer funds from your one account to another account. For any transfer in any account other than your own account, you first need to add that account as a beneficiary in order to transfer funds."
+            ],
+            "context_set":""
         }
     ]
 }
