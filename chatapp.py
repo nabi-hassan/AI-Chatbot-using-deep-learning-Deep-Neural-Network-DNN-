@@ -1,10 +1,6 @@
 
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Wed May  6 02:02:20 2020
-@author: ali
-"""
 import pickle
 import json
 import random
@@ -15,6 +11,7 @@ import nltk
 from nltk.stem.lancaster import LancasterStemmer
 from flask import Flask,render_template,request
 from flask_wtf import FlaskForm
+from flask_restful import Api, Resource, reqparse
 from wtforms import StringField,SubmitField
 
 def bag_of_words(s,words):

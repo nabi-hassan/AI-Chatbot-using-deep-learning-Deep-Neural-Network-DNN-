@@ -8,11 +8,12 @@
                 "Is anyone there?",
                 "Hello",
                 "Good day",
-                "Whats up"
+                "Whats up",
+                "How do you do?",
+                "How are you doing?"
             ],
             "responses": [
                 "Hello!",
-                "Good to see you again!",
                 "Hi there, how can I help?"
             ],
             "context_set": ""
@@ -24,12 +25,199 @@
                 "See you later",
                 "Goodbye",
                 "I am Leaving",
-                "Have a Good day"
+                "Have a Good day",
+                "bye"
             ],
             "responses": [
-                "Sad to see you go :(",
-                "Talk to you later",
-                "Goodbye!"
+                "Take care. Hope to see you soon again"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "cards",
+            "patterns": [
+                "do you guys offer debit card service?",
+                "I want a card",
+                "I want a debit card",
+                "I want a credit card",
+                "Want a card",
+                "want a debit card",
+                "want a credit card",
+                "card deliver to home",
+                "credit card",
+                "debit card",
+                "credit or debit card",
+                "card service",
+                "how can i activate my debit card?",
+                "how can i deactivate my debit card?",
+                "What is the procedure to activate the debit card?",
+                "Can I activate my debit card? Tell me the procedure?",
+                "debitcard",
+                "creditcard",
+                "any card serivce?",
+                "any banking card serivce?",
+                "any debit credit card service?",
+                "what are the charges for credit card?",
+                "what are the charges for debit card?",
+                "what are the charges for cards?",
+                "can I get cards deliver to home?",
+                "can I get debit card delivered to my home?",
+                "can I get credit card delivered to my home?"            
+
+            ],
+            "responses": [
+                "We offer free debit card service but our credit card service costs 1400 Rs/year. Both cards can be delivered to your home address for free. You can also activate/deactivate your card using our online banking service. Just login and click Card from the sidebar."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "checkbook",
+            "patterns": [
+                "what is the procedure to order the chequebook?",
+                "what is the procedure to order a chequebook?",
+                "what is the procedure to order the checkbook?",
+                "what is the procedure to order a checkbook?",
+                "checkbook",
+                "chequebook",
+                "cheque book",
+                "Can I order chequebook? Tell me the procedure?",
+                "Cheque book",
+                "charges for checkbook?",
+                "How many checkbooks can I order at a time?",
+                "Cost of checkbooks",
+                "What is the cost of one checkbook",
+                "What is the cost of ordering one checkbook",
+                "Are checkbooks free?"
+            ],
+            "responses": [
+                "Each checkbook costs 200 Rs. You need to login and go to the “Order chequebook” option from side bar and select the number of leaves and press the “Order chequebook” button. You can order only 1 checkbook at a time"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "free",
+            "patterns": [
+                "Free services",
+                "How many free services do you guys offer",
+                "list all free services",
+                "How many free services are there?"
+            ],
+            "responses": [
+                "There are many free services offered by our bank. Including internet banking service, debit cards, delivery and many more. To know more about our services. Call our helpline center."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "password",
+            "patterns": [
+                "how can i change my password?",
+                "how password ca be changed?",
+                "What is the procedure to change the password?",
+                "Can I change my password?",
+                "password change",
+                "password"
+                
+            ],
+            "responses": [
+                "You need to go to the “change password” option from side bar and provide your “Current Password”, “New Password”, and existing Password."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "moneytransfer",
+            "patterns": [
+                "How can I transfer funds?",
+                "How to transfer funds",
+                "How to transfer money",
+                "How to send money to someone",
+                "How to send money to some other account",
+                "send money",
+                "transfer money",
+                "what to do to transfer money",
+                "what to do to transfer funds",
+                "How funds can be transferred?",
+                "How can funds be transferred?",
+                "What is the procedure to transfer funds?",
+                "I want to know what is the procedure to transfer funds?",
+                "What is the procedure to transfer funds from account to account?",
+                "Money transfer",
+                "Amount transfer",
+                "transfer"
+
+                
+            ],
+            "responses": [
+                "Login and go to the sidebar and click funds transfer. Write the account number of the receiver and the amount you want to transfer."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "billpayment",
+            "patterns": [
+                "How can I pay bill?",
+                "How to pay bill",
+                "How bill can be transferred?",
+                "How can bill be transferred?",
+                "What is the procedure to pay bill?",
+                "I want to know what is the procedure to pay bill?",
+                "pay bill",
+                "bill payment",
+                "Can I pay my bills online?",
+                "bills",
+                "pay bills",
+                "pay companies",
+                "paying bills online"
+                
+            ],
+            "responses": [
+                "Login and go to the sidebar and click bill payment. Write the consumer no. or any relevant number according to the company you're paying and the amount you want to pay."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "charges",
+            "patterns": [
+                "charges to pay bill",
+                "money transfer charges",
+                "what are the charges of transferring money",
+                "bill payment charges",
+                "funds transfer charges",
+                "money transfer charges",
+                "cost to pay bill",
+                "money transfer cost",
+                "what is the cost of transferring money",
+                "bill payment cost",
+                "funds transfer cost",
+                "money transfer cost",
+                "Charges for this service?",
+                "free service",
+                "Is it a free service?",
+                "Charges for this?"
+                
+            ],
+            "responses": [
+                "It is a free service."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "branches",
+            "patterns": [
+                "how many branches are there?",
+                "no. of branches?",
+                "number of branches?",
+                "any other branch?",
+                "branches",
+                "ATM",
+                "atm",
+                "total atms all over Pakistan",
+                "total no. of atms",
+                "total number of atms",
+                "branch"
+
+            ],
+            "responses": [
+                "We have a total of 20 branches and 50 ATMs all over Pakistan and we hope to extend it even more. Call our helpline no. to find the nearest branch and nearest ATM. Thank you"
             ],
             "context_set": ""
         },
@@ -81,7 +269,18 @@
             "patterns": [
                 "when are you guys open",
                 "what are your hours",
-                "hours of operation"
+                "hours of operation",
+                "banking timing",
+                "timing?",
+                "banking hours",
+                "open hours",
+                "when does your bank open?",
+                "what is your bank closed?",
+                "bank time?",
+                "time?",
+                "bank timings",
+                "bank timing",
+                "tell me your bank timing"
             ],
             "responses": [
                 "We are open 7am-4pm Monday-Friday!"
@@ -99,7 +298,17 @@
                 "account balance",
                 "balance in my account",
                 "credit card balance",
-                "list down my accounts"
+                "list down my accounts",
+                "balance",
+                "how to check balance?",
+                "how to check my account balance?",
+                "check account balance",
+                "check account bal",
+                "check acc bal",
+                "check acc balance",
+                "account balance",
+                "remaining balance",
+                "remaining bal"
             ],
             "responses": [
                 "You have to sign and click on balance tab"
@@ -111,18 +320,54 @@
             "patterns": [
                 "representative",
                 "i need help",
-                "how to open a bank account",
-                "pleast guide me to open an account",
                 "can i speak to someone",
                 "speak to someone",
                 "speak to a representative",
-                "can i talk to manager",
+                "can i talk to the manager",
+                "manager",
                 "what if i forgot my username and/or password",
-                "How do I update my email address/mobile number?"
+                "How do I update my email address/mobile number?",
+                "I forgot my password",
+                "forgot password",
+                "how can I close my bank account?"
             ],
             "responses": [
-                "You can call the our helpline 0800-0000-000 .",
-                "You can visit our nearest branch ."
+                "Call our helpline 0800-0000-000 or Visit our nearest branch ."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "account",
+            "patterns": [
+                "how to open a bank account",
+                "different account types",
+                "account types",
+                "how many account types do you guys",
+                "please guide me on how to open an account",
+                "do you guys offer a savings account?",
+                "do you guys offer a current account?",
+                "do you guys offer a asaan account?",
+                "account",
+                "account options?",
+                "what account options do I have?",
+                "bank acc",
+                "how to open a bank acc?",
+                "how to open an acc?",
+                "acc",
+                "acc types",
+                "types of accounts",
+                "types of acc",
+                "bank",
+                "banking",
+                "tell me all different types of bank accounts you guys offer?",
+                "types of bank accounts",
+                "types of bank acc",
+                "different types of bank accounts",
+                "different types of bank acc"
+                
+            ],
+            "responses": [
+                "We offer three different types of accounts. Current, Savings and Asaan Account. You can visit any branch to open an account. For any other query, please call helpline."
             ],
             "context_set": ""
         },
@@ -137,10 +382,49 @@
                 "list down by recent transactions",
                 "view my transactions",
                 "can i have a look at my transactions",
-                "what were my transactions"
+                "what were my transactions",
+                "bank statements",
+                "transactions history",
+                "total transactions",
+                "how to view my bank statement",
+                "how to generate my bank statement",
+                "how to view transactions history",
+                "from where can I see my transactions history?",
+                "from where can I see my bank statements",
+                "transaction",
+                "transactions",
+                "trans"
+
             ],
             "responses": [
-                "You have to sign and click on transactions tab"
+                "You have to sign and click on bank statements tab. There you can find your transactions history. Performing transactions is a free service and you can either transfer money to any other account by clicking transfer funds on the sidebar or pay bills by clicking bill payment on the sidebar."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "register",
+            "patterns": [
+                "register",
+                "how to register",
+                "register online banking account",
+                "register online banking acc"
+            ],
+            "responses": [
+                "Go to scarlet banking website and hover over the internet banking tab and click sign up from there."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "website",
+            "patterns": [
+                "website",
+                "what type of site is this?",
+                "what type of website is this?",
+                "tell me about your website",
+                "site"
+            ],
+            "responses": [
+                "It is an online banking website of scarlet bank."
             ],
             "context_set": ""
         },
@@ -153,7 +437,13 @@
                 "Could you tell me more about it",
                 "could you tell me more",
                 "more information",
-                "more details"
+                "more details",
+                "info",
+                "scarlet bank",
+                "scarlet",
+                "tell me more about scarlet bank",
+                "tell me more about your bank",
+                "what else do you know?"
             ],
             "responses": [
                 "You can visit our bank's website for more info",
@@ -170,10 +460,9 @@
                 "can you tell me a joke"
             ],
             "responses": [
-                "Did you hear about the buddhist who went to the dentist, and refused to take novocain? he wanted to transcend dental medication.",
-                "nasa recently sent a number of holsteins into orbit for experimental purposes. They called it the herd shot round the world.",
-                "I never forget a face, but in your case I'll make an exception.",
-                "A 3-legged dog walks into an old west saloon, slides up to the bar and announces(I'm looking for the man who shot my paw.)"
+                "Hear about the new restaurant called Karma? There’s no menu: You get what you deserve ;)",
+                "I never forget a face, but in your case I'll make an exception XD",
+                "Did you hear about the claustrophobic astronaut? He just needed a little space :D"
             ],
             "context_set":""
         },
@@ -197,7 +486,22 @@
             "patterns":[
                 "which username and password do I use?",
                 "which username should i use",
-                "which password should i use"
+                "which password should i use",
+                "How can I get a username and password for logging in?",
+                "How can I get a username and password for login?",
+                "how can I get a username",
+                "how can I get a password",
+                "how can I get a username and password",
+                "username and password for login",
+                "What do I need to login",
+                "From where can I get a username?",
+                "From where can I get a password?",
+                "From where can I get a username and password?",
+                "username and password",
+                "which username to use?",
+                "which password to use?",
+                "username",
+                "password"
             ],
             "responses":[
                 "You can use your existing username and password to login. If you do not have an internet banking account you can register, By creating an account."
@@ -208,7 +512,9 @@
             "tag":"InternetBanking",
             "patterns":[
                 "What is Internet Banking?",
-                "what do you know about internet banking?"
+                "what do you know about internet banking?",
+                "Internet banking",
+                "Online banking"
             ],
             "responses":[
                 "Internet Banking is a simple, hassle-free and secure internet banking service available to all Visa Debit Card holder customers and Corporate Clients*. Customer can access the service through Internet and Mobile browser"
@@ -216,7 +522,7 @@
             "context_set":""
         },
         {
-            "tag":"overseasbanking",
+            "tag":"overseas",
             "patterns":[
                 "Can I access this service overseas?",
                 "How can i use this service overseas?",
@@ -225,10 +531,11 @@
                 "how can i access my account overseas",
                 "can i access my account internationally",
                 "how will international users access their account",
-                "international access"
+                "international access",
+                "can I access my account from anywhere",
+                "overseas"
             ],
             "responses":[
-                "Internet Banking is a simple, hassle-free and secure internet banking service available to all Visa Debit Card holder customers and Corporate Clients* across the globe. Customer can access the service through Internet and Mobile browser",
                 "Yes. As long as you are able to access the Internet with the recommended internet browser, you will be able to access the service."
             ],
             "context_set":""
@@ -238,17 +545,18 @@
             "patterns":[
                 "Who can apply for this service?",
                 "Who can apply for internet banking",
-                "What are the requirements for internet banking?"
+                "What are the requirements for internet banking?",
+                "I want to apply for internet banking service"
             ],
             "responses":[
-                "Any MCB Bank account holder with an active Visa Debit Card at any MCB online branch in Pakistan can apply for this service through “Self Registration”. Further Abroad customer can choose “Abroad” from drop down menu. A *corporate customer needs to contact parent branch to accord this service."
+                "Any Scarlet Bank account holder with an active Visa Debit Card at any scarlet online branch in Pakistan can apply for this service through “Self Registration”. Further Abroad customer can choose “Abroad” from drop down menu. A *corporate customer needs to contact parent branch to accord this service."
             ],
             "context_set":""
         },
         {
             "tag":"fundstransfer",
             "patterns":[
-                "Can I transfer funds to my other accounts and any MCB Bank account?",
+                "Can I transfer funds to my other accounts and any scarlet Bank account?",
                 "can I transfer funds",
                 "how can i transfer funds to other accounts",
                 "funds transfer"
