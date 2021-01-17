@@ -1,4 +1,4 @@
-# AI-Chatbot-using-deep-learning-Deep-Neural-Network-DNN-
+# AI Chatbot using deep learning(Deep Neural Network DNN)
 This Repository contains a python chatbot that uses deep learning techniques to answer your questions.
 Dependencies:
 flask
